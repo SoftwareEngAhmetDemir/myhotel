@@ -1,0 +1,290 @@
+*{
+    box-sizing: border-box;
+   outline: none;
+   outline-offset: none;
+   overflow-x: hidden;
+}
+
+ 
+  
+.first_segmentation{
+  overflow-y: hidden;
+  background-image: url("images/first.jpg");
+    position: absolute;
+    left: 0;
+    top: 0;
+  
+    width: 100%;
+    height: 609px;
+  background-repeat: no-repeat;
+  
+  
+
+}
+
+.Logo {
+    /* background-image: url("images/Logo.jpg"); */
+    position: relative;
+    left: 1%;
+    top: 6%;
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+    width: 10%;
+    height: 20%;
+  
+  }
+  
+/*  */
+
+.navbarcss {
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+  }
+  
+
+
+/*  */
+  .Hey_merhaba__Hayatindaki_en_muhtesem_tatil_dene {
+    font-size: 100%;
+    width: 50%;
+    height: 100%;
+    font-family: "Myriad Pro";
+    color: rgba(255, 255, 255, 0.988);
+    line-height: 150%;
+    text-align: center;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 20%;
+    /* top: 10%; */
+  }
+
+
+  .Otel_Hakkinda{
+font-size: 2vw;
+    position: relative;
+    line-height: 90%;
+   
+    left: 8%;
+    top: 50px;    
+    width: 50%;
+    height: 10%;
+    max-height: 10%;
+    min-height: 10%;
+    color: black;
+    background-color: antiquewhite;
+    /* outline:none;   */
+    border: none;
+    transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  
+  }
+  
+.Otel_Hakkinda:hover{
+  background-color: blueviolet;
+  opacity: 0.7;
+}
+
+
+  li>a{
+    font-size: 100%;
+  }
+
+
+  .second_segementation_Title{
+    
+      text-align: center;
+    
+    
+  }
+
+  .Second{
+   
+   overflow-y: hidden;
+    position: absolute;
+    top: 595px;
+    width: 100%;
+    height: 748px;
+    background-color: rgba(212, 215, 219, 0.795);
+    /* overflow: auto; */
+
+  }
+
+
+  
+
+  .Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
+    
+    font-size:1.5vw;
+    font-family: "Myriad Pro";
+    color: rgb(51, 51, 51);
+    line-height: 2;
+    text-align: left;
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    height: 60%;
+    width: 45%;
+    
+  }
+  
+
+  .Third{
+    
+    position: absolute;
+   
+    top: 1340px;
+    width: 100%;
+    height: 919px;
+    background-color: rgba(156, 74, 115, 0.616);
+  
+
+  }
+*{
+  font-family: "Myriad Pro";
+}
+
+  .Muhteşem_bir_doğa_manzarası__kuş_sesleri_ve_çak {
+     font-size:2vw;
+    font-family: "Roboto";
+    color: rgb(51, 51, 51);
+    line-height: 1.667;
+    /* text-align: center; */
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    width: 50%;
+    height: 250px;
+    min-height: 250px;
+    overflow-y: inherit;
+    margin-bottom: 10%;
+    text-align: center;
+  text-justify: inter-word;
+  
+
+  }
+  
+
+  .Four{
+  
+    position: absolute;
+height: 663px;
+width: 100%;
+background-color: rgba(157, 169, 179, 0.971);
+top: 2255px;
+
+  }
+
+  /* td{
+    mix-blend-mode: darken;
+    
+  } */
+
+  .Five{
+    overflow-y: hidden;
+    width: 100%;
+    position: absolute;
+    top: 2900px;
+    background-color: bisque;
+    height: 900px;
+  }
+  
+
+  .Six{
+    width: 100%;
+    position: absolute;
+    top: 3800px;
+    background-color: blue;
+    height: 500px;
+  }
+  
+
+
+  .Seven{
+    overflow-y: hidden;
+    width: 100%;
+    position: absolute;
+    top: 4300px;
+    background-color: rgb(72, 72, 92);
+    height: 600px;
+
+
+
+  }
+
+  .Son{
+    width: 100%;
+    position: absolute;
+    top: 4899px;
+    background-color: rgb(61, 95, 134);
+    height: 100px;
+
+  }
+
+  i{
+    cursor: pointer;
+  }
+
+
+  .diger,button{
+    transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+
+  }
+
+
+  button:hover{
+    background-color: blueviolet;
+  opacity: 0.7;
+  }
+
+  .anim{
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    
+
+  }
+
+  .anim:hover{
+    animation-name: example;
+  animation-duration: 1s;
+    
+    opacity: 0.7;
+   
+    
+  }
+
+  @keyframes example {
+    from {height: 70%;width: 70%;}
+    to {height: 80%;width: 80%;}
+  }
+
+
+
+
+
+
+
+  .animt{
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    
+
+  }
+
+  .animt:hover{
+    animation-name: examplet;
+  animation-duration: 1s;
+    
+    opacity: 0.7;
+   
+    
+  }
+
+
+
